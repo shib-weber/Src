@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - A Pen by Shibjyoti Roy chowdhury</title>
+  
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title>Red Heart</title>
+
+    <style>
+
+        body {
+
+            display: flex;
+
+            justify-content: center;
+
+            align-items: center;
+
+            height: 100vh;
+
+        }
+
+        .heart {
+
+            width: 100px;
+
+            height: 100px;
+
+            background-color: red;
+
+            position: relative;
+
+            transform: rotate(45deg);
+
+        }
+
+        .heart::before,
+
+        .heart::after {
+
+            content: "";
+
+            width: 100px;
+
+            height: 100px;
+
+            background-color: red;
+
+            border-radius: 50%;
+
+            position: absolute;
+
+        }
+
+        .heart::before {
+
+            top: -50px;
+
+            left: 0;
+
+        }
+
+        .heart::after {
+
+            top: 0;
+
+            left: -50px;
+
+        }
+
+    </style>
+
+</head>
+
+<body>
+  <body bgcolor ="black">
+
+    <div class="heart"></div>
+
+</body>
+
+</html>
+<!-- partial -->
+  
+</body>
+</html>
